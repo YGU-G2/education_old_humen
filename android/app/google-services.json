@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "575439771834",
+    "project_id": "llliteracy-eradication-app",
+    "storage_bucket": "llliteracy-eradication-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:575439771834:android:e6edc67685ff4535f54a83",
+        "android_client_info": {
+          "package_name": "com.example711.untitled2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBliTVIiTu8WViVdq3fBDdImQm0CrTz3dA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

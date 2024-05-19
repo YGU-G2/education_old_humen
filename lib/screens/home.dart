@@ -8,9 +8,9 @@ import 'package:get/get.dart';
 import 'package:step_progress_indicator/step_progress_indicator.dart';
 import 'package:syncfusion_flutter_charts/charts.dart';
 import 'package:untitled2/controllers/main_controller.dart';
-// import 'package:untitled2/screens/about.dart';
+import 'package:untitled2/screens/about.dart';
 import 'package:untitled2/screens/books.dart';
-// import 'package:untitled2/screens/classes.dart';
+import 'package:untitled2/screens/classes.dart';
 import 'package:untitled2/screens/root.dart';
 import 'package:untitled2/widgets/bottom_bar.dart';
 
@@ -85,9 +85,9 @@ class _HomeState extends State<Home> {
             mainController.animatePage(value, pageController),
         children: const [
           Root(),
-          // Classes(),
+          Classes(),
           Books(),
-          // About(),
+          About(),
         ],
       ),
       bottomNavigationBar: Container(

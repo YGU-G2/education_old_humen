@@ -14,7 +14,6 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      debugShowCheckedModeBanner: false,
       theme: ThemeData(useMaterial3: false),
       home: Home(),
       initialRoute: Intro.id,
@@ -36,3 +35,4 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
